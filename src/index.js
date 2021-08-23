@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './front.js';
-import Form from './Components/Form/forms';
+
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Form />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
