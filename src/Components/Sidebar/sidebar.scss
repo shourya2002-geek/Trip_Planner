@@ -1,0 +1,135 @@
+/* Import Pretty Checkboxes*/
+@import "https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css";
+/* Import Varela Round from Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+
+
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  color: white;
+  
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+  color: white;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  
+  background: #270E2D;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.menu-item{
+  display: flex;
+  margin-bottom: 50px;
+  font-size: 20px;
+  background-color: #bd00ff;
+  border-radius: 10px;
+  height: 40px;
+  text-align: center;
+  
+  span{
+    margin-left: 15px;
+  }
+  
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  font-family: 'Varela Round', sans-serif;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  height: 200vh;
+  
+}
+
+.bm-cross-button{
+  color:white;
+}
+
+
+
+@media only screen and (min-width: 847px) {
+    
+    .bm-item {
+        display: none;
+    }
+    .bm-item:hover {
+        display: none;
+    }
+    .bm-burger-button {
+        display: none;
+    }
+    .bm-burger-bars {
+        display: none;
+    }
+    .bm-item {
+        display: none;
+    }
+
+    .bm-cross-button{
+        display: none;
+    }
+
+    .bm-cross-button{
+        display: none;
+    }
+
+    .bm-cross-button{
+        display: none;
+    }
+
+    .bm-cross-button{
+        display: none;
+    }
+
+
+    
+
+}
